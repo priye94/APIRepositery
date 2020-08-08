@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="org.testing.TestScripts.TestNG1"/>
+      <class name="org.testing.TestScripts.GetRequestTC"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
