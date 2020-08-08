@@ -6,11 +6,13 @@ import java.util.Properties;
 import org.testing.ResponseValidation.ResponseStatusCodeValidate;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.utilities.PropertiesFileLoad;
+import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
 
 public class DeleteRequest {
 	
+	@Test
 	public void TC5() throws IOException
 	{
 		Properties pr=PropertiesFileLoad.propertiesFile();
