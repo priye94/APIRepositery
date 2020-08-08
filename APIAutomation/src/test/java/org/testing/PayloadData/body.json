@@ -1,0 +1,7 @@
+{
+  "firstname": "{{firstname}}",
+  "lastname": "Ranjan",
+  "id": "{{id}}",
+  "employeeage": "27",
+  "designation": "Team Lead",
+}
