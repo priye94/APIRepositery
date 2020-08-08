@@ -16,8 +16,8 @@ public class RunnerClass {
 	
 	public static void main(String[] args) throws IOException {
 		
-//		PostRequestTC post=new PostRequestTC();
-//		post.TC1();
+		PostRequestTC post=new PostRequestTC();
+		post.TC1();
 		
 		/*
 		 * GetRequestTC get=new GetRequestTC(); get.TC2();
@@ -36,8 +36,8 @@ public class RunnerClass {
 		/*ReadNUpdateJsonFile rnu=new ReadNUpdateJsonFile();
 		rnu.TC6();*/
 		
-		PostRequestThankfulReplacement replacement=new PostRequestThankfulReplacement();
-		replacement.TC1();
+		/*PostRequestThankfulReplacement replacement=new PostRequestThankfulReplacement();
+		replacement.TC1();*/
 		
 		
 	}
