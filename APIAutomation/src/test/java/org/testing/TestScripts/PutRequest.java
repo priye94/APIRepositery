@@ -8,11 +8,13 @@ import org.testing.ResponseValidation.ResponseDataValidation;
 import org.testing.ResponseValidation.ResponseStatusCodeValidate;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.utilities.PropertiesFileLoad;
+import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
 
 public class PutRequest {
-
+    
+	@Test
 	public void TC4() throws IOException {
 		
 		JSONObject data=new JSONObject();

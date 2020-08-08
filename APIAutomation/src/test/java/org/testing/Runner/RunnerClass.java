@@ -1,7 +1,5 @@
 package org.testing.Runner;
 
-
-
 import java.io.IOException;
 
 import org.testing.TestScripts.DeleteRequest;
@@ -19,22 +17,20 @@ public class RunnerClass {
 		PostRequestTC post=new PostRequestTC();
 		post.TC1();
 		
-		/*
-		 * GetRequestTC get=new GetRequestTC(); get.TC2();
-		 * 
-		 * GetRequestWithQueryParameters query=new GetRequestWithQueryParameters();
-		 * query.TC3();
-		 */
+		GetRequestTC get=new GetRequestTC();
+		get.TC2();
 		
-		/*
-		 * PutRequest put=new PutRequest(); put.TC4();
-		 */
+		GetRequestWithQueryParameters query=new GetRequestWithQueryParameters();
+		query.TC3();
+		 
+		PutRequest put=new PutRequest(); 
+		put.TC4();
 		
-		/*DeleteRequest delete=new DeleteRequest();
-		delete.TC5();*/
+		DeleteRequest delete=new DeleteRequest();
+		delete.TC5();
 		
-		/*ReadNUpdateJsonFile rnu=new ReadNUpdateJsonFile();
-		rnu.TC6();*/
+		ReadNUpdateJsonFile rnu=new ReadNUpdateJsonFile();
+		rnu.TC6();
 		
 		/*PostRequestThankfulReplacement replacement=new PostRequestThankfulReplacement();
 		replacement.TC1();*/

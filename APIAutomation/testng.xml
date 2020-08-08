@@ -5,6 +5,10 @@
     <classes>
       <class name="org.testing.TestScripts.PostRequestTC"/>
       <class name="org.testing.TestScripts.GetRequestTC"/>
+      <class name="org.testing.TestScripts.GetRequestWithQueryParameters"/>
+      <class name="org.testing.TestScripts.PutRequest"/>
+      <class name="org.testing.TestScripts.DeleteRequest"/>
+      <class name="org.testing.TestScripts.ReadNUpdateJsonFile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -5,9 +5,11 @@ import java.io.FileNotFoundException;
 import org.json.JSONObject;
 import org.testing.utilities.JsonFileRead;
 import org.testing.utilities.jsonHandling;
+import org.testng.annotations.Test;
 
 public class ReadNUpdateJsonFile {
 	
+	@Test
 	public void TC6() throws FileNotFoundException
 	{
 	    JSONObject data=new JSONObject();
