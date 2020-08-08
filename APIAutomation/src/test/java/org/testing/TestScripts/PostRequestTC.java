@@ -12,6 +12,7 @@ import org.testing.utilities.JsonFileRead;
 import org.testing.utilities.JsonVariableReplacement;
 import org.testing.utilities.PropertiesFileLoad;
 import org.testing.utilities.ResponseExtractionUsingJsonPath;
+import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
 
@@ -19,6 +20,7 @@ public class PostRequestTC {
 	
 	static String id;
 	static String firstname;
+	@Test
 	public void TC1() throws IOException {
 		
 		String body=JsonFileRead.bodyDataRead("../APIAutomation/src/test/java/org/testing/PayloadData/body.json");

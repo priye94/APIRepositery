@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="org.testing.TestScripts.PostRequestTC"/>
       <class name="org.testing.TestScripts.GetRequestTC"/>
     </classes>
   </test> <!-- Test -->
