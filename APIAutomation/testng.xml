@@ -8,7 +8,6 @@
       <class name="org.testing.TestScripts.GetRequestWithQueryParameters"/>
       <class name="org.testing.TestScripts.PutRequest"/>
       <class name="org.testing.TestScripts.DeleteRequest"/>
-      <class name="org.testing.TestScripts.ReadNUpdateJsonFile"/>
       <class name="org.testing.TestScripts.TestingBuild"/>
     </classes>
   </test> <!-- Test -->
