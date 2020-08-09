@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class ReadNUpdateJsonFile {
 	
 	@Test
-	public void TC6() throws FileNotFoundException
+	public void TC7() throws FileNotFoundException
 	{
 	    JSONObject data=new JSONObject();
 	    data.put("3", "Ranjan");

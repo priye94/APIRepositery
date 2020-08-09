@@ -79,5 +79,19 @@ public class HTTPMethods {
 		
 		return res;
 	}
+	
+	public Response PatchRequest(String bodyData, String uriKey,String ParameterValue)
+	{
+		String uri=pr.getProperty(uriKey)+"/"+ParameterValue;
+		System.out.println("URI for Put request is : "+uri);
+		Response res=
+		given()
+		.contentType(ContentType.JSON)
+		.body(bodyData)
+		.when()
+		.patch(uri);
+		
+		return res;
+	}
 
 }

@@ -3,31 +3,26 @@ package org.testing.TestScripts;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.json.JSONObject;
+import org.testing.ResponseValidation.ResponseDataValidation;
 import org.testing.ResponseValidation.ResponseStatusCodeValidate;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.utilities.PropertiesFileLoad;
-import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
 
-public class DeleteRequest {
+public class PatchRequestTC {
 	
-	@Test
-	public void TC6() throws IOException
+	public void TC5() throws IOException
 	{
+		JSONObject patchdata=new JSONObject();
+		String body=patchdata.put("firstname", "Patch1").toString();
 		Properties pr=PropertiesFileLoad.propertiesFile();
 		HTTPMethods http=new HTTPMethods(pr);
-		Response res=http.deleteRequest("QA_URI", PostRequestTC.id);
-		System.out.println("Deleted Data is ");
-		System.out.println(res.asString());
-		
+		Response res=http.PatchRequest(body,"QA_URI", "1422722349");
 		ResponseStatusCodeValidate.responseStatusCode(res, 200);
+		ResponseDataValidation.responseData(res, "Patch", "firstname");
+		System.out.println("Response is "+res.asString());
 	}
-	
-	
-	
-	
-	
-	
 
 }
