@@ -23,8 +23,7 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>6.10</version>
-    <scope>test</scope>
+    <version>7.1.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.json/json -->
@@ -92,10 +91,7 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
-        </plugin>
+      
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
